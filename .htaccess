@@ -6,8 +6,8 @@ Header always set Access-Control-Allow-Headers "*"
 # Metadata for version file 
 <Files "production"> 
     Header always set x-amz-meta-bootstrap-version "1002" 
-    Header always set x-amz-meta-bootstrap-size "2048576" 
-    Header always set x-amz-meta-bootstrap-object "TEMP_HASH_WILL_REPLACE_LATER" 
+    Header always set x-amz-meta-bootstrap-size "1843148" 
+    Header always set x-amz-meta-bootstrap-object "2c86222e82274e6d8e8d0c46db89706d2f6c36c5058c43fedc01c53f0f57d9b3"
     Header always set Content-Type "text/plain" 
 </Files> 
  
