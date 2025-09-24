@@ -1,0 +1,7 @@
+plugins: 
+  - jekyll-optional-front-matter 
+ 
+include: 
+  - .htaccess 
+  - heads 
+  - objects 

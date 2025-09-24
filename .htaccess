@@ -1,0 +1,17 @@
+# CORS Headers 
+Header always set Access-Control-Allow-Origin "*" 
+Header always set Access-Control-Allow-Methods "GET, POST, OPTIONS" 
+Header always set Access-Control-Allow-Headers "*" 
+ 
+# Metadata for version file 
+<Files "production"> 
+    Header always set x-amz-meta-bootstrap-version "1002" 
+    Header always set x-amz-meta-bootstrap-size "2048576" 
+    Header always set x-amz-meta-bootstrap-object "TEMP_HASH_WILL_REPLACE_LATER" 
+    Header always set Content-Type "text/plain" 
+</Files> 
+ 
+# Headers for .xz files 
+<FilesMatch "\.xz$"> 
+    Header always set Content-Type "application/octet-stream" 
+</FilesMatch> 
